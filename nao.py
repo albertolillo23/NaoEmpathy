@@ -2,7 +2,7 @@ import qi
 import urllib2
 
 # Specify the URL
-url = "http://example.com"
+url = "https://whisper.wollybrain.di.unito.it/control"
 
 try:
     # Open the URL and read the response
