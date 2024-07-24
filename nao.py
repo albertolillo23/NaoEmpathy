@@ -36,38 +36,46 @@ def load_json_file(file):
     try:
         with open(file, 'r') as file:
             data = json.load(file)
-            print(data)
             return data
     except IOError:
-        print "Errore"
+        print "Errore impossibile aprire il file"
     except ValueError:
-        print "Errore"
+        print "Errore non valido"
     except Exception as e:
-        print "Errore"
+        print "Errore", e
     return None
 
 
 def main():
     #tts_service = session.service("ALTextToSpeech")
     url = "https://whisper.wollybrain.di.unito.it/control"
-    counter = 0
+    counter = 1
     vecchio_id = None
 
     while True:
         risposta = json_request(url)
         id = risposta.get('id')
-        emozione = risposta.get('best_emotion')
-        file_path = 'json_ex.json'
-        data = load_json_file(file_path)
-
-        if data is not None:
-            continue
 
         if id != vecchio_id:
+            emozione = risposta.get('best_emotion')
+            file_path = 'json_ex.json'
+            data = load_json_file(file_path)
+
+            if data:
+                if str(counter) in data:
+                    print "Dati per il contatore:", counter
+                    if emozione in data[str(counter)][0]:
+                        frase = data[str(counter)][0][emozione]
+                        print(frase)
+                        counter += 1
+                    else:
+                        print("Emozione non trovata nel dizionario per il contatore:", str(counter))
+                else:
+                    print("Contatore non valido o chiave non trovata nel JSON:", str(counter))
+            else:
+                print("Errore nel caricamento del JSON.")
+
             vecchio_id = id
-            frase = data[counter][emozione]
-            print(frase)
-            counter += 1
 
             #tts_service.say(value)
 
