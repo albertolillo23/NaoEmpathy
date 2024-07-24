@@ -40,14 +40,20 @@ def load_json_file(file):
     except IOError:
         print "Errore impossibile aprire il file"
     except ValueError:
-        print "Errore non valido"
+        print "Errore json non valido"
     except Exception as e:
         print "Errore", e
     return None
 
+def imposta_colori(led_color, tts_service2):
+
+  tts_service2.fadeRGB("FaceLeds", led_color, 1.0)
+
+
 
 def main():
     #tts_service = session.service("ALTextToSpeech")
+    #tts_service2 = session.service("ALLeds")
     url = "https://whisper.wollybrain.di.unito.it/control"
     counter = 1
     vecchio_id = None
@@ -58,27 +64,31 @@ def main():
 
         if id != vecchio_id:
             emozione = risposta.get('best_emotion')
-            file_path = 'json_ex.json'
-            data = load_json_file(file_path)
+
+            file_frasi = 'json_ex.json'
+            file_colori = 'leds_colors.json'
+            data = load_json_file(file_frasi)
+            colori = load_json_file(file_colori)
 
             if data:
                 if str(counter) in data:
                     print "Dati per il contatore:", counter
                     if emozione in data[str(counter)][0]:
                         frase = data[str(counter)][0][emozione]
+                        led = colori[emozione]
                         print(frase)
+                        print led
+
+                        #tts_service.say(value)
+                        #imposta_colori(led, tts_service2)
                         counter += 1
+                        vecchio_id = id
                     else:
                         print("Emozione non trovata nel dizionario per il contatore:", str(counter))
                 else:
                     print("Contatore non valido o chiave non trovata nel JSON:", str(counter))
             else:
                 print("Errore nel caricamento del JSON.")
-
-            vecchio_id = id
-
-            #tts_service.say(value)
-
 
 
 if __name__ == '__main__':
