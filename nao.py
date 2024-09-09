@@ -1,13 +1,12 @@
 import sys
 import os
-import qi
 import urllib2
 import json
 from naoqi import ALProxy
 import ssl
 import time
 
-last_id = None
+last_id = 0
 
 
 def json_request(url):
@@ -45,10 +44,9 @@ def retrieve_color_data(path):
         return data
 
 
-def main(session):
+def main(tts, leds):
     global last_id
-    tts_service = session.service("ALTextToSpeech")
-    led_service = session.service("ALLeds")
+
     url = "https://whisper.wollybrain.di.unito.it/control"
     path_json = os.getcwd() + "/json_ex.json"
     path_color = os.getcwd() + "/colors.json"
@@ -61,32 +59,30 @@ def main(session):
     while True:
         id, last_id, best_emotion = json_request(url)
         print(id, last_id)
+        leds.reset("FaceLeds")
         if id != last_id:
             last_id = id
-            if counter < 7:
-                led_service.reset("FaceLeds")
+            if counter == 1:
+                tts.say(str(data_local[str(counter)][0]["neutral"]))
+                counter += 1
+            if counter < 7 & counter > 1:
                 R = data_color[str(best_emotion)][0]
                 G = data_color[str(best_emotion)][1]
                 B = data_color[str(best_emotion)][2]
 
-                led_service.fadeRGB("FaceLeds", 256*256*R + 256*G + B, 0.5)
-                tts_service.say(data_local[str(counter)][0][best_emotion])
+                leds.fadeRGB("FaceLeds", 256*256*R + 256*G + B, 1)
+                tts.say(str(data_local[str(counter)][0][best_emotion]))
                 counter += 1
-            else:
-                led_service.reset("FaceLeds")
-                break
+
         time.sleep(1)
 
 
 if __name__ == "__main__":
     ip = "nao01.local"
     port = 9559
-    session = qi.Session()
-    try:
-        session.connect("tcp://" + ip + ":" + str(port))
-    except RuntimeError:
-        print ("Can't connect to Naoqi at ip \"" + ip + "\" on port " + str(port) + ".\n"
-                                                                                    "Please check your script arguments. Run with -h option for help.")
-        sys.exit(1)
-
-    main(session)
+    tts = ALProxy("ALTextToSpeech", ip, port)
+    leds = ALProxy("ALLeds", ip, port)
+    tts.setLanguage("Italian")
+    tts.setVolume(0.5)
+    tts.setParameter("speed", 100)
+    main(tts, leds)
