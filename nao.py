@@ -64,24 +64,18 @@ def main(session):
         if id != last_id:
             last_id = id
             if counter < 7:
-                # tts_service.say(data_local[str(counter)][0][best_emotion])
-                #color_settings(data_color[best_emotion], led_service)
-                # print (data_color["neutral"], type(data_color["neutral"]))
-                R = data_color["disgust"][0]
-                G = data_color["disgust"][1]
-                B = data_color["disgust"][2]
-
-                led_service.fadeRGB("FaceLeds", 0 + 255 + 0, 0.5)
                 led_service.reset("FaceLeds")
+                R = data_color[str(best_emotion)][0]
+                G = data_color[str(best_emotion)][1]
+                B = data_color[str(best_emotion)][2]
 
+                led_service.fadeRGB("FaceLeds", 256*256*R + 256*G + B, 0.5)
+                tts_service.say(data_local[str(counter)][0][best_emotion])
                 counter += 1
             else:
+                led_service.reset("FaceLeds")
                 break
         time.sleep(1)
-
-
-def color_settings(led_color, led_service):
-    led_service.fadeRGB("FaceLeds", led_color, 1.0)
 
 
 if __name__ == "__main__":
