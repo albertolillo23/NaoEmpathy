@@ -1,10 +1,10 @@
-import sys
-import os
-import urllib2
 import json
-from naoqi import ALProxy
+import os
 import ssl
 import time
+import urllib2
+import unicodedata
+from naoqi import ALProxy
 
 last_id = 0
 
@@ -38,12 +38,6 @@ def retrieve_json_data(path):
         return data
 
 
-def retrieve_color_data(path):
-    with open(path, "r") as file:
-        data = json.load(file)
-        return data
-
-
 def main(tts, leds):
     global last_id
 
@@ -51,30 +45,34 @@ def main(tts, leds):
     path_json = os.getcwd() + "/json_ex.json"
     path_color = os.getcwd() + "/colors.json"
 
-    counter = 1
+    counter = 13
 
     data_local = retrieve_json_data(path_json)
-    data_color = retrieve_color_data(path_color)
+    data_color = retrieve_json_data(path_color)
 
-    while True:
+    while counter < 14:
         id, last_id, best_emotion = json_request(url)
         print(id, last_id)
         leds.reset("FaceLeds")
         if id != last_id:
             last_id = id
+
             if counter == 1:
-                tts.say(str(data_local[str(counter)][0]["neutral"]))
+                starter = unicodedata.normalize('NFKD', data_local[str(counter)][0]["neutral"]).encode('ascii', 'ignore')
+                tts.say(starter)
                 counter += 1
-            if counter < 7 & counter > 1:
+            else:
                 R = data_color[str(best_emotion)][0]
                 G = data_color[str(best_emotion)][1]
                 B = data_color[str(best_emotion)][2]
 
                 leds.fadeRGB("FaceLeds", 256*256*R + 256*G + B, 1)
-                tts.say(str(data_local[str(counter)][0][best_emotion]))
+                phrase = unicodedata.normalize('NFKD', data_local[str(counter)][0][best_emotion]).encode('ascii', 'ignore')
+                tts.say(phrase)
                 counter += 1
 
         time.sleep(1)
+    leds.reset("FaceLeds")
 
 
 if __name__ == "__main__":

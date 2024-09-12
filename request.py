@@ -9,7 +9,7 @@ url = "https://whisper.wollybrain.di.unito.it/update"
 # Create a dictionary with the data you want to update
 data_to_update = {
     "id": random.randint(1, 1000),
-    "best_emotion": "joy",
+    "best_emotion": "contempt",
     "complex_dyads": "None"
 }
 
@@ -34,3 +34,6 @@ try:
     print(content)
 except urllib2.URLError as e:
     print("Update failed. Error:", e.reason)
+
+
+
