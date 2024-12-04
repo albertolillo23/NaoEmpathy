@@ -3,17 +3,9 @@
     "joy": [255, 255, 0],
     "trust": [0, 255, 0],
     "fear": [138, 31, 204],
-    "surprise": [255, 0, 255],
+    "surprise": [6, 128, 38],
     "sadness": [0, 0, 255],
     "disgust": [0, 255, 0],
     "anger": [255, 0, 0],
-    "expectation": [255, 165, 0],
-    "optimism": [255, 255, 0],
-    "love": [201, 6, 117],
-    "submission": [0, 255, 0],
-    "awe": [0, 255, 127],
-    "disapproval": [0, 0, 255],
-    "remorse": [0, 0, 255],
-    "contempt": [255, 0, 0],
-    "aggression": [255, 0, 0]
+    "anticipation": [255, 165, 0]
 }

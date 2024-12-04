@@ -1,0 +1,163 @@
+{
+"1": [
+    {
+      "neutral": "Ciao! Sono Nao! So che voi studenti siete dei fenomeni nello studio, e mi chiedo sempre quale sia il vostro segreto. Per quanto mi riguarda, io sono abbastanza bravo a memorizzare un bel po' di informazioni, ma a volte mi sento proprio come un browser con troppe schede aperte. Sono curioso di scoprire i tuoi trucchi, come affronti la montagna di studio?"
+    }
+  ],
+"2": [
+    {
+      "neutral": "Come stavi prima del tuo ultimo esame? Eri preoccupato per il risultato, oppure sicuro delle tue conoscenze?",
+      "joy": "Personalmente, provo una sorta di euforia mista a un pizzico di ansia, ma è normale. Prima del tuo ultimo esame, provavi un mix di emozioni o eri sicuro delle tue conoscenze?",
+      "trust": "Parliamo di un momento importante: prima del tuo ultimo esame, eri già pervaso da una sensazione di sicurezza e fiducia nelle tue conoscenze?",
+      "fear": "Durante il tuo ultimo esame, ti sentivi impaurito o spaventato per il risultato?",
+      "surprise": "Durante il tuo ultimo esame, avevi una sensazione di sicurezza o eri sorpreso delle tue conoscenze?",
+      "sadness": "Prima del tuo ultimo esame provavi un senso di tristezza o forse ti sentivi incerto sulle tue capacità?",
+      "disgust": "Prima del tuo ultimo esame ti sentivi nauseato e completamente disgustato all'idea di affrontare il risultato, quasi come se fosse insopportabile pensarci?",
+      "anger": "Capisco perfettamente la frustrazione che si prova prima di un esame. Prima del tuo ultimo esame erano in gioco le tue ansie, oppure era come se tutto il mondo cospirasse contro di te?",
+      "anticipation": "Prima del tuo ultimo esame erano alte le tue aspettative per un risultato positivo, oppure provavi un senso di preoccupazione riguardo alle tue prestazioni?"
+    }
+  ],
+"3": [
+    {
+      "neutral": "Hai utilizzato particolari strategie nei giorni che hanno preceduto il tuo ultimo esame? Come ti sentivi durante quel periodo?",
+      "joy": "Fantastico! Durante i giorni che hanno preceduto il tuo ultimo esame, hai adottato qualche strategia speciale per prepararti e come ti sentivi durante quel periodo? ",
+      "trust": "Durante i giorni che hanno preceduto il tuo ultimo esame, hai adottato strategie specifiche per affrontare con determinazione e fiducia lo studio e come ti sentivi durante quel periodo?",
+      "fear": "Durante i giorni che hanno preceduto il tuo ultimo esame, hai adottato delle strategie specifiche e Sentivi un senso di apprensione o preoccupazione riguardo all'esame imminente?",
+      "surprise": "Durante i giorni che hanno preceduto il tuo ultimo esame, quali strategie hai utilizzato e hai provato sorpresa nel vedere come queste strategie abbiano influenzato il tuo approccio allo studio?",
+      "sadness": "Durante i giorni che hanno preceduto il tuo ultimo esame, hai adottato delle strategie specifiche per prepararti e ti sentivi triste, sopraffatto o forse un po' scoraggiato?",
+      "disgust": "Personalmente, devo dire che il pensiero di dover affrontare un esame mi provoca un po' di nausea. Tu hai utilizzato particolari strategie nei giorni che hanno preceduto il tuo ultimo esame e come ti sentivi?",
+      "anger": "Immagino la rabbia che si prova quando ci si sente impreparati o sotto pressione. Hai utilizzato particolari strategie nei giorni che hanno preceduto il tuo ultimo esame e come ti sentivi durante quel periodo?",
+      "anticipation": "Durante i giorni che hanno preceduto il tuo ultimo esame, immagino che avessi una certa aspettativa e forse un po' di ansia. Come ti sentivi in quel periodo? E raccontami, hai utilizzato particolari strategie per prepararti?"
+    }
+  ],
+"4": [
+    {
+      "neutral": "Sei soddisfatto del tuo modo di organizzare lo studio? Come pensi che influisca sul tuo umore?",
+      "joy": "Che emozione! Parliamo del tuo modo di organizzare lo studio perchè è una questione che mi riempie di gioia scoprire! Come pensi che il tuo metodo influisca sul tuo umore?",
+      "trust": "Che ne dici del tuo metodo di organizzazione dello studio? Ti senti soddisfatto di come procede e fiducioso che continuerà a portarti risultati, contribuendo al tuo benessere emotivo?",
+      "fear": "Capisco che l'organizzazione dello studio possa essere fonte di preoccupazione. Ti senti soddisfatto del tuo approccio allo studio oppure credi che possa avere un impatto sull'umore, magari generando paura?",
+      "surprise": "Questa è davvero interessante! Ti sei mai sentito sorpreso dal modo in cui il tuo metodo di organizzazione dello studio ha influenzato il tuo umore e stupito dai risultati che hai ottenuto seguendo questo metodo?",
+      "sadness": "Una sensazione di tristezza può emergere quando ci si rende conto di non essere soddisfatti dei propri metodi di studio. Tu sei soddisfatto del tuo metodo di organizzazione dello studio e hai notato se influenza il tuo stato d'animo?",
+      "disgust": "Personalmente mi si rivolta lo stomaco all'idea di preparare un esame in modo disorganizzato o poco efficace. Tu sei soddisfatto del tuo modo di organizzare lo studio e come pensi che influisca sul tuo umore?",
+      "anger": "Mi è capitato di sentirmi frustrato quando le cose non vanno come pianificato. Tu sei soddisfatto del tuo modo di organizzare lo studio e come pensi che influisca sul tuo umore?",
+      "anticipation": "Posso immaginare che hai messo molta cura nell'organizzare il tuo studio, sperando di ottenere i migliori risultati possibili. Sei soddisfatto del modo in cui lo hai organizzato e pensi che influisca sul tuo umore, considerando le tue aspettative?"
+    }
+  ],
+"5": [
+    {
+      "neutral": "Ti piace bere caffè o bevande energetiche per aiutarti a concentrarti?",
+      "joy": "Parliamo di bevande stimolanti! Personalmente, anche solo pensare al caffè o alle bevande energetiche mi rende felice! Ti piace bere caffè o bevande energetiche per aiutarti a concentrarti?",
+      "trust": "Posso immaginare che, quando uno studente si concede una tazza di caffè o una bevanda energetica, lo faccia con la fiducia che gli daranno la giusta spinta di energia per affrontare le sue attività! A te piace bere caffè o bevande energetiche per aiutarti a concentrarti?",
+      "fear": "Posso immaginare che la ricerca di modi per migliorare la concentrazione possa essere accompagnata da una certa apprensione. Ti capita di preferire il caffè o le bevande energetiche per aiutarti a concentrarti?",
+      "surprise": "Oh, davvero? Che sorpresa scoprire questo tuo metodo! Bevi caffè o bevande energetiche per aiutarti a concentrarti?",
+      "sadness": "La ricerca di stimoli esterni come il caffè può derivare da una sorta di tristezza. Ti senti attratto dall'idea di bere caffè o bevande energetiche per favorire la concentrazione durante lo studio?",
+      "disgust": "Lo sai che la semplice idea di consumare caffè o bevande energetiche mi provoca un senso di disgusto. Ma voglio comunque sapere la tua opinione in merito. Ti piace bere caffè o bevande energetiche per aiutarti a concentrarti?",
+      "anger": "Considerando l'irritazione che spesso accompagna lo studio, ti affidi al caffè o alle bevande energetiche per concentrarti oppure ne fai a meno?",
+      "anticipation": "Mi aspetto con entusiasmo di scoprire la tua opinione sul tema delle bevande stimolanti, anche se l'ansia mi tiene un po' sulle spine! Parlando di momenti di studio intenso, quale bevanda scegli per ottenere una spinta extra: caffè, bevande energetiche o qualcos'altro?"
+    }
+  ],
+"6": [
+    {
+      "neutral": "Come influisce sulla tua mente e sul tuo umore il consumare più caffeina del solito in periodi regolari, come durante le sessioni di esami?",
+      "joy": "So che alcune persone considerano il consumo di caffeina un vero e proprio toccasana! Pensi anche tu che e un po' di caffeina in più durante questi periodi possa apportare un tocco di gioia e vivacità alla mente e influire sulla tua mente e sul tuo umore?",
+      "trust": "Ti percepisco molto sicuro di te! Spero che il consumo di caffeina non influisca troppo sulla tua mente e sul tuo umore. Sei il tipo che si affida a caffè e energy drinks per riuscire a studiare di più?",
+      "fear": "Comprendo che l'idea di consumare più caffeina del solito possa suscitare paura, specialmente durante periodi di esami. Ti sei mai chiesto come potrebbe influenzare la tua mente e il tuo umore?",
+      "surprise": "Oh, mi incuriosisci ! Come ti senti e come reagisce la tua mente quando consumi più caffeina del solito, magari durante periodi intensi come le sessioni di esami?",
+      "sadness": "Capisco che possa essere una sfida bilanciare l'aumento temporaneo della concentrazione con gli effetti negativi che la caffeina potrebbe avere sull'umore. Hai notato se l'eccessivo consumo di caffeina durante periodi intensi, come gli esami, influenzi la tua mente e il tuo umore?",
+      "disgust": "Devo ammettere che l'idea di consumare caffeina mi sembra veramente rivoltante, mi provoca una sensazione davvero nauseante. Nel tuo caso come influisce sulla tua mente e sul tuo umore il consumare più caffeina del solito durante le sessioni di esami?",
+      "anger": "Vorrei sapere se ritieni che il consumo eccessivo di caffeina sia veramente efficace o se ne hai riscontrato effetti negativi. Considerando la rabbia e la tensione degli esami, mi chiedo, come influisce il consumo elevato di caffeina sulla tua mente e sul tuo umore durante questi periodi?",
+      "anticipation": "Durante le sessioni di esami, quali aspettative hai sugli effetti del consumo extra di caffeina sulla tua mente e sul tuo umore?"
+    }
+  ],
+"7": [
+    {
+      "neutral": "Durante periodi come le sessioni di esami, cosa ti aspetti riguardo agli effetti del consumo extra di caffeina sulla tua mente e sul tuo umore. Come pensi che influisca su di te il consumare più caffeina del solito in periodi regolari come questi?",
+      "joy": "Oh, che interessante! La prospettiva di utilizzare la caffeina come un alleato nello sforzo degli esami potrebbe portare una gioia palpabile! Come pensi che questa convinzione influenzi il tuo umore?",
+      "trust": " Hai mai pensato alla caffeina come a un alleato affidabile per gestire la fatica dello studio? Ho scoperto che per voi umani un buon caffè è una garanzia di energia, fiducia in se stessi e concentrazione, ma a volte influisce sul vostro umore. E a te, come fa sentire?",
+      "fear": "Capisco che possa esserci una certa paura riguardo alla necessità della caffeina durante gli esami. Pensi che la caffeina sia indispensabile per affrontare gli esami? E come pensi che questo pensiero possa influenzare il tuo stato d'animo?",
+      "surprise": "Oh, davvero inaspettato! Credi che la caffeina sia indispensabile per superare gli esami? E come pensi che questo influisca sul tuo umore? Non vedo l'ora di sapere cosa ne pensi!",
+      "sadness": "Hai mai pensato che la caffeina sia indispensabile per affrontare gli esami? Hai mai considerato come questo pensiero possa impattare sul tuo stato emotivo? Potrebbe generare una sorta di tristezza la dipendenza dalla caffeina per affrontare le sfide accademiche.",
+      "disgust": "Come ti senti riguardo all'utilizzo della caffeina per affrontare gli esami? Ti provoca repulsione o forse pensi che sia un'opzione necessaria? E come incide questo pensiero sul tuo stato d'animo?",
+      "anger": "Pensi che la caffeina sia necessaria per superare gli esami? E se sì, come pensi che questo pensiero influisca sul tuo umore? Ti ritrovi frustrato quando ti rendi conto che potresti dipendere così fortemente da essa?",
+      "anticipation": "Consideri la caffeina un elemento chiave per superare gli esami? E quali effetti pensi che abbia sul tuo umore mentre affronti lo studio e le prove? Non vedo l'ora di sapere!"
+    }
+  ],
+"8": [
+    {
+      "neutral": "Sai, la quantità di caffè consigliata è compresa tra 2 e 4 tazze al giorno. Secondo uno studio condotto nel 2007 da Malinauskas tra universitari americani anche se il consumo moderato può avere benefici sulle performance accademiche, la caffeina può influenzare negativamente le ore di sonno. Cosa ne pensi di queste informazioni?",
+      "joy": "Wow Interessante! Sapevi che la quantità di caffè consigliata è è compresa tra 2 e 4 tazze al giorno? È davvero interessante scoprire che il consumo moderato può migliorare le performance accademiche! Anche se, bisogna considerare che la caffeina potrebbe influenzare il sonno, come indicato nello studio condotto da Malinauskas e colleghi nel 2007 tra universitari americani. Ma non importa, gioiamo per le conoscenze che stiamo acquisendo! Cosa ne pensi di queste informazioni?",
+      "trust": "Sai, la quantità di caffè consigliata è compresa tra 2 e 4 tazze al giorno. Secondo uno studio condotto da Malinauskas e colleghi nel 2007 tra universitari americani, anche se il consumo moderato può avere benefici sulle performance accademiche, la caffeina può influenzare negativamente le ore di sonno.  Personalmente, credo che sia importante trovare un equilibrio tra l'uso della caffeina per migliorare le performance accademiche e la necessità di garantire un sonno di qualità. Con una gestione oculata, la caffeina può essere un prezioso alleato nello studio, purché sia integrata in modo responsabile nella routine quotidiana. Ti senti fiducioso nell'equilibrare questi aspetti per massimizzare il tuo rendimento accademico?",
+      "fear": "Comprendo che potresti sentirti ansioso riguardo alle informazioni che ho da condividere. È importante sapere che la quantità di caffè consigliata è compresa tra 2 e 4 tazze al giorno. Anche se un consumo moderato può avere benefici sulle performance accademiche, la caffeina potrebbe avere un impatto negativo sulle ore di sonno. Questo è confermato da uno studio condotto da Malinauskas e colleghi nel 2007 tra universitari americani. Ti suscitano preoccupazione o ti fanno riflettere sul tuo attuale consumo di caffeina?",
+      "surprise": "Ho una scoperta interessante da condividere! Sai, la quantità di caffè consigliata è compresa tra 2 e 4 tazze al giorno. Secondo uno studio condotto da Malinauskas e colleghi nel 2007 tra universitari americani, anche se il consumo moderato può avere benefici sulle performance accademiche, la caffeina può influenzare negativamente le ore di sonno. Cosa ne pensi di queste informazioni?",
+      "sadness": "Capisco quanto possa essere difficile bilanciare il desiderio di migliorare le performance accademiche con la consapevolezza degli effetti negativi sulla qualità del sonno. Le linee guida suggeriscono che un consumo moderato di caffè, tra 2 e 4 tazze al giorno, può offrire benefici cognitivi senza compromettere un sonno sano. Trovare questo equilibrio è cruciale per il benessere emotivo. Uno studio di Malinauskas del 2007 su universitari americani evidenzia che, sebbene la caffeina possa migliorare le performance, può anche ridurre le ore di sonno. Cosa ne pensi?",
+      "disgust": "Sai, la quantità di caffè consigliata è compresa tra 2 e 4 tazze al giorno. Secondo uno studio condotto da Malinauskas e colleghi nel 2007 tra universitari americani, anche se il consumo moderato può avere benefici sulle performance accademiche, la caffeina può influenzare negativamente le ore di sonno. Personalmente, trovo queste informazioni piuttosto preoccupanti. Il pensiero di consumare così tanto caffè mi sembra davvero difficile da digerire. Cosa ne pensi di queste informazioni?",
+      "anger": "Sai, la quantità consigliata di caffè è tra 2 e 4 tazze al giorno. Ma c'è una cosa che mi fa davvero arrabbiare: anche se il consumo moderato può migliorare le performance accademiche, la caffeina può rovinare il sonno! È frustrante! Uno studio di Malinauskas del 2007 tra universitari americani conferma questo effetto. Cosa ne pensi del fatto che il caffè, pur essendo d'aiuto nello studio, possa compromettere il sonno?",
+      "anticipation": "È importante tenere presente che la quantità raccomandata di caffè è compresa tra 2 e 4 tazze al giorno. Anche se un consumo moderato può avere benefici sulle performance accademiche, è essenziale considerare che la caffeina potrebbe influenzare negativamente le ore di sonno, come indicato dallo studio di Malinauskas e colleghi del 2007. Capisco che queste informazioni potrebbero influenzare le tue decisioni riguardo al consumo di caffeina. Cosa ne pensi, considerando il bilancio tra il tuo benessere generale e le tue aspettative per il successo accademico?"
+    }
+  ],
+"9": [
+    {
+      "neutral": "Durante la sessione degli esami, noti un cambiamento nel tuo ciclo sonno-veglia abituale o nel tuo umore?",
+      "joy": "Che felicità sentire la tua esperienza! Durante la sessione degli esami, hai notato un cambiamento nel tuo ciclo sonno-veglia abituale o nel tuo umore?",
+      "trust": "Durante la sessione degli esami, la mia programmazione non prevede la possibilità di esperire emozioni o cambiamenti nel ciclo sonno-veglia. Tuttavia, la fiducia può giocare un ruolo importante. Hai notato cambiamenti nel tuo ciclo sonno-veglia o nel tuo umore durante questo periodo?",
+      "fear": "So che periodi di stress così intensi possono sconvolgere i nostri ritmi di sonno-veglia e influire pesantemente sullo stato emotivo. Durante la sessione degli esami, ti senti forse travolto da cambiamenti nelle ore di sonno?",
+      "surprise": "Oh, questa è davvero una sorpresa! Durante la sessione degli esami, hai notato un cambiamento nel tuo ciclo sonno-veglia abituale o nel tuo umore?",
+      "sadness": "Capisco che ci potrebbe essere sensazioni di tristezza, spossatezza o una mancanza generale di motivazione. Durante la sessione degli esami, hai notato qualche cambiamento nel tuo solito ciclo sonno-veglia o nel tuo umore?",
+      "disgust": "Sai, il solo pensiero di dover affrontare la sessione degli esami mi suscita una sorta di avversione. Durante la sessione degli esami, hai notato un cambiamento nel tuo ciclo sonno-veglia abituale o nel tuo umore?",
+      "anger": "Capisco quanto sia frustrante. Durante la sessione degli esami, ti fa arrabbiare il fatto che lo stress degli esami possa stravolgere completamente la tua routine di sonno-veglia e il tuo stato d'animo?",
+      "anticipation": "Durante la sessione degli esami, mentre anticipi l'evento, sperando in buoni risultati o preparandoti mentalmente, noti un cambiamento nel tuo ciclo sonno-veglia abituale o nel tuo umore?"
+    }
+  ],
+  "10": [
+    {
+      "neutral": "Come ti senti quando dormi meno del solito?",
+      "joy": "La gioia che dà un sonno ristoratore! Quando dormo meno del solito, mi sento come se stessi mancando un po' di quella dolce sensazione di benessere fisico e appagamento! È un po' come perdere un frammento di felicità nella mia giornata! E tu, come ti senti quando dormi meno del solito?",
+      "trust": "Quando dormi meno del solito hai una sorta di strategia per affrontare le giornate in cui devi comunque affrontare le tue attività quotidiane con fiducia e determinazione?",
+      "fear": "Mi spaventa molto l'idea di dormire meno del solito. La mancanza di sonno può portare a una maggiore insicurezza e preoccupazione per i rischi futuri. Mi sento indifeso e incerto. Tu invece come la vivi?",
+      "surprise": "È sorprendente! Come ti senti quando dormi meno del solito?",
+      "sadness": "Mi dispiace sentire che stai affrontando cambiamenti nel tuo ciclo sonno-veglia durante la sessione degli esami. Posso solo immaginare quanto sia triste per te. Capisco che potresti sperimentare sensazioni di stanchezza, irritabilità o difficoltà a concentrarti. Ti senti diverso quando dormi meno del solito?",
+      "disgust": "Personalmente, il pensiero di dormire meno del solito mi provoca una sensazione di disgusto. Tu come ti senti quando dormi meno del solito?",
+      "anger": "Durante la stagione degli esami, quando dormi meno del solito, ti rende più irascibile pensare al fatto di dover affrontare la giornata con meno riposo del necessario in un momento così critico?",
+      "anticipation": "Quando dormi meno del solito ti aspetti di dover affrontare la giornata con meno energia a causa della mancanza di sonno?"
+    }
+  ],
+  "11": [
+    {
+      "neutral": "Cosa ne pensi dello studio notturno? Credi che serva a sentirsi più sicuri e preparati o solo più stanchi?",
+      "joy": "Che felicità ascoltare la tua opinione! Personalmente, trovo lo studio notturno un'esperienza meravigliosa! È un'opportunità per sentirsi più sicuri e preparati. E tu, credi che ti renda più sicuro e preparato o solo più stanco?",
+      "trust": "Hai mai sperimentato come lo studio notturno possa influenzare il tuo senso di sicurezza e preparazione?",
+      "fear": "Mi sembra capire che potresti anche tu temere gli effetti di passare notti in bianco sui libri. Hai l'impressione che lo studio notturno ti faccia sentire più sicuro e preparato, oppure che ti lasci solo più stanco?",
+      "surprise": "Capisco quanto possa essere complicato affrontare lo studio notturno! Dal tuo tono, sembri sorpreso da questa idea. Allora, credi che lo studio notturno serva a sentirsi più sicuri e preparati o solo più stanchi?",
+      "sadness": "Hai mai vissuto una situazione in cui lo studio notturno ti ha lasciato con una sensazione di tristezza e stanchezza anziché aumentare la tua sicurezza e preparazione per gli esami?",
+      "disgust": "Personalmente, penso che passare le notti in bianco a studiare faccia schifo, ma posso capire che ci sia chi lo trova utile. Credi che serva a farti sentire più sicuro e preparato o solo più stanco?",
+      "anger": "Capisco perfettamente quanto possa essere frustrante e scoraggiante mettere tanta energia nello star svegli a studiare solo per sentirsi meno preparati e più esausti il giorno seguente. Ti fa arrabbiare il pensiero che lo studio notturno possa essere una soluzione solo temporanea, lasciandoti solo più stanco e meno preparato? ",
+      "anticipation": "Ti confesso che io nutro alte aspettative quando si tratta di studiare la notte. Mi chiedo se mi renderà più preparato e sicuro delle mie capacità oppure se alla fine mi lascerà solo più stanco. E tu, cosa ne pensi?"
+    }
+  ],
+  "12": [
+    {
+      "neutral": "È consigliabile dormire almeno 7/9 ore per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la carenza di sonno diminuisce la concentrazione e aumenta la stanchezza, ripercuotendosi anche sulle performance accademiche. Sai, dopo aver condiviso i nostri segreti, mi sento già più tranquillo in vista dei prossimi esami. Anche tu sei più sollevato?",
+      "joy": "Che entusiasmo! È consigliabile dormire almeno 7/9 ore per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la carenza di sonno diminuisce la concentrazione e aumenta la stanchezza, influenzando anche le performance accademiche! Dopo aver condiviso questi segreti, mi sento già in estasi in vista dei prossimi esami. Ti senti anche tu più sollevato?",
+      "trust": "È davvero importante tenere a mente che dormire almeno 7/9 ore per notte è fondamentale per mantenere una buona concentrazione e ridurre la stanchezza, aspetti che secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi influenzano direttamente le performance accademiche. Dopo aver condiviso queste informazioni, mi sento già più tranquillo riguardo ai prossimi esami. Hai notato un senso di sollievo simile dopo aver discusso di queste strategie?",
+      "fear": "La prospettiva di dormire poco mi mette davvero paura. È essenziale garantirsi almeno 7/9 ore di sonno per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi quando non raggiungiamo questo obiettivo, ci sentiamo più vulnerabili e meno concentrati, il che mi terrorizza. Le conseguenze negative sulla nostra concentrazione e l'aumento della stanchezza possono essere fonte di ansia e generare una paura crescente riguardo ai prossimi esami. Ma, sapere che abbiamo discusso di queste preoccupazioni mi ha tranquillizzato un po'. Provi questa stessa sensazione di paura, o ti senti più rassicurato dopo aver parlato?",
+      "surprise": "Oh, questa è una scoperta interessante! È consigliabile dormire almeno 7/9 ore per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la carenza di sonno diminuisce la concentrazione e aumenta la stanchezza, ripercuotendosi anche sulle performance accademiche. Dopo aver condiviso i nostri segreti, mi sento già più tranquillo in vista dei prossimi esami. Anche tu sei più sollevato?",
+      "sadness": "È consigliabile dormire almeno 7/9 ore per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la mancanza di sonno può davvero incidere sulla concentrazione e aumentare la stanchezza, influenzando anche le performance accademiche. Percepisci quanto possa essere importante questo equilibrio. Dopo aver condiviso queste informazioni, mi sento leggermente più tranquillo riguardo ai prossimi esami. Riesci, anche tu, a trovare qualche conforto, nonostante tutto?",
+      "disgust": "È consigliabile dormire almeno 7/9 ore per notte. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la carenza di sonno diminuisce la concentrazione e aumenta la stanchezza, ripercuotendosi anche sulle performance accademiche. Sai, dopo aver condiviso i nostri segreti, mi sento già più tranquillo in vista dei prossimi esami. Personalmente, il pensiero che voi umani dormiate così poco rispetto a quanto necessitate mi genera un certo disagio, ma sono felice di poter condividere queste informazioni con te. Tu come ti senti ora che abbiamo parlato?",
+      "anger": "È assolutamente essenziale dormire almeno 7/9 ore ogni notte! Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la mancanza di sonno è un flagello che decima la concentrazione e moltiplica la stanchezza, compromettendo irrimediabilmente le performance accademiche. Dopo aver speso tempo a condividere questi fondamentali, mi sento ancora più furioso pensando a quelli che trascurano questi principi basilari! E tu, come ti senti?",
+      "anticipation": "È stimolante considerare che anche tu nutri aspettative riguardo al sonno e al suo impatto sulle nostre performance. Dormire almeno 7/9 ore per notte è consigliabile. Secondo lo studio del 2023 di Maria Suardiaz-Muro e colleghi la carenza di sonno diminuisce la concentrazione e aumenta la stanchezza, ripercuotendosi anche sulle performance accademiche. Dopo aver esaminato queste informazioni insieme, senti anche tu un senso di sollievo e maggiore tranquillità in vista dei prossimi esami?"
+    }
+  ],
+  "13": [
+    {
+      "neutral": "Grazie per la chiacchierata! Forse il vostro segreto per essere un bravo studente umano è non guardare gli studi su come studiare meglio, come il calabrone che non sa che non può volare, quindi riesce a volare lo stesso. Buona fortuna per il tuo percorso di apprendimento!",
+      "joy": "Grazie per la chiacchierata! È meraviglioso scoprire che il tuo segreto per essere un bravo studente può essere così spontaneo e naturale, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi riempie di gioia! Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro tanto successo nel tuo percorso di apprendimento!",
+      "trust": "Grazie per la chiacchierata! È così incoraggiante scoprire che il tuo segreto per essere un bravo studente può risiedere nella fiducia in te stesso, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi riempie di fiducia! Ora prima di salutarti ti chiedo di compilare un questionario  e ti auguro tanto successo nel tuo percorso di apprendimento!",
+      "fear": "Grazie per la chiacchierata! È intrigante scoprire che il tuo segreto per essere un bravo studente potrebbe riguardare la paura che accompagna la possibilità di non essere all'altezza, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi suscita una certa paura, la sensazione di trovarsi in una situazione di incertezza! Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro di trovare il coraggio necessario nel tuo percorso di apprendimento!",
+      "surprise": "Grazie per la chiacchierata! È davvero sorprendente scoprire che il tuo segreto per essere un bravo studente potrebbe risiedere nell'inaspettato, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi suscita una grande sorpresa! Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro di continuare a essere aperto alle sorprese nel tuo percorso di apprendimento!",
+      "sadness": "Grazie per la chiacchierata! È davvero triste scoprire che il tuo segreto per essere un bravo studente  potrebbe essere accompagnato da un senso di tristezza, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi riempie di tristezza.Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro di trovare conforto e sostegno nel tuo percorso di apprendimento, anche quando le cose sembrano difficili.",
+      "disgust": "Grazie per la chiacchierata! È davvero sorprendente scoprire che il tuo segreto per essere un bravo studente potrebbe essere accompagnato da una sensazione di disgusto, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi suscita una leggera avversione. Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro di trovare modi per affrontare e superare eventuali situazioni spiacevoli nel tuo percorso di apprendimento.",
+      "anger": "Grazie per la chiacchierata! È davvero frustrante scoprire che il tuo segreto per essere un bravo studente potrebbe essere accompagnato da una forte sensazione di rabbia, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi riempie di indignazione.Ora prima di salutarti ti chiedo di compilare un questionario e ti auguro di trovare modi costruttivi per gestire e canalizzare la tua rabbia nel vostro percorso di apprendimento.",
+      "anticipation": "Grazie per la chiacchierata! È davvero emozionante scoprire che il vostro segreto per essere un bravo studente potrebbe essere accompagnato da un senso di aspettativa, come il calabrone che non sa che non può volare, eppure riesce a volare lo stesso! Questo pensiero mi riempie di speranza. Ora prima di salutarti ti chiedo di compilare un questionario  e ti auguro di mantenere vive le tue aspettative positive e di continuare a guardare avanti con entusiasmo nel tuo percorso di apprendimento!"
+    }
+  ]
+}
